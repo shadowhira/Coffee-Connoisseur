@@ -244,7 +244,7 @@ tslib@^2.4.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
-unsplash-js@^7.0.15:
+unsplash-js@^7.0.19:
   version "7.0.19"
   resolved "https://registry.yarnpkg.com/unsplash-js/-/unsplash-js-7.0.19.tgz#36a4ee6d52f2438a5526c08c7018908debba10c7"
   integrity sha512-j6qT2floy5Q2g2d939FJpwey1yw/GpQecFiSouyJtsHQPj3oqmqq3K4rI+GF8vU1zwGCT7ZwIGQd2dtCQLjYJw==
