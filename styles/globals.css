@@ -22,7 +22,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #373b64;
-  height: 100%;
+  z-index: 0;
+  /* height: 100%; */
 }
 
 * {
