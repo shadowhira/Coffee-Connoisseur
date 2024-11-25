@@ -37,10 +37,8 @@ export default function Home(props) {
           const response = await fetch(
             `/api/getCoffeeStoresByLocation?latLong=${latLong}&limit=30`
           );
-          
 
           const coffeeStores = await response.json();
-          // setCoffeeStores(fetchedCoffeeStores);
           dispatch({
             type: ACTION_TYPES.SET_COFFEE_STORES,
             payload: { coffeeStores },
