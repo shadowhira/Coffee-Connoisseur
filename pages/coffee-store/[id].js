@@ -112,8 +112,6 @@ const CoffeeStore = (initialProps) => {
   }, [data]);
 
   const handleUpvoteButton = async () => {
-    console.log("Up vote!");
-
     try {
       const response = await fetch("/api/favouriteCoffeeStoreById", {
         method: "PUT",

@@ -28,8 +28,6 @@ export default function Home(props) {
   const { dispatch, state } = useContext(StoreContext);
   const { coffeeStores, latLong } = state;
 
-  console.log({ latLong, locationErrorMsg });
-
   useEffect(() => {
     const fetchStores = async () => {
       if (latLong) {
@@ -55,7 +53,6 @@ export default function Home(props) {
   }, [latLong]);
 
   const handleOnBannerBtnClick = () => {
-    console.log("Banner here");
     handleTrackLocation();
   };
 
